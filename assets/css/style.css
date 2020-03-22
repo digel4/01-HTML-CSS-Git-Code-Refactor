@@ -8,6 +8,22 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* header styles */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,11 +62,8 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+/* hero box styles */
+.hero-box {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +72,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* aside styles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +99,14 @@ aside article img {
     max-width: 150px;
 }
 
+/* section styles */
+
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +125,7 @@ section article h2 {
     font-size: 36px;
 }
 
+/* footer styles */
 footer {
     padding: 30px;
     clear: both;
